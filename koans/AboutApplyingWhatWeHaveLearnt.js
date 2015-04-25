@@ -1,9 +1,13 @@
-var _; //globals
+var describe; //globals
 
 describe("About Applying What We Have Learnt", function() {
 
   var products;
-
+  var beforeEach;
+  var it;
+  var expect;
+  var FILL_ME_IN;
+  
   beforeEach(function () {
     products = [
        { name: "Sonoma", ingredients: ["artichoke", "sundried tomatoes", "mushrooms"], containsNuts: false },
@@ -38,7 +42,7 @@ describe("About Applying What We Have Learnt", function() {
   it("given I'm allergic to nuts and hate mushrooms, it should find a pizza I can eat (functional)", function () {
 
       var productsICanEat = [];
-
+      
       /* solve using filter() & all() / any() */
 
       expect(productsICanEat.length).toBe(FILL_ME_IN);
