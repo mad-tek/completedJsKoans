@@ -1,3 +1,5 @@
+### Completed Javascript Koans by Teck
+
 # Javascript Koans - koans to learn Javascript (the good bits) #
 
 Based on Edgecase's fantastic 
